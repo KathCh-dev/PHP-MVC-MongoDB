@@ -7,7 +7,7 @@ $collection = $weapon->Borderlands_Shop->weapons;
 $cursor = $collection->find([]); 
 
 foreach($cursor as $element){
-    echo $element["nom"] . "\n";
+    echo $element["nom"] . "; ";
 }
 
 ?>  
