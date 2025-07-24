@@ -1,0 +1,43 @@
+ [
+    {
+        "nom":"Chimera",
+        "type":"Revolver",
+        "effect":"Un monstre plein de surprises: feu, foudre et poison ! (Toujours explosif, mais ses munistions ont une chance d'être incendiaires, électriques ou corrosives.)",
+        "damages":"de 222 à 1440",
+        "precision":"de 89,3 à 96,4",
+        "fire_rate":"de 1 à 2,3",
+        "magazine":"2, 3 ou 6",
+        "elementary_bonuses":"explosif (x2 à x4)"
+    },
+    {
+        "nom":"Equalizer",
+        "type":"Revolver",
+        "effect":"Puissance de feu infinie ! (Régénération de munitions)",
+        "damages":"de 151 à 1377",
+        "precision":"de 69,8 à 95,8",
+        "fire_rate":"de 1,6 à 1,9",
+        "magazine":"2, 3 ou 6",
+        "elementary_bonuses":["corrosif (x1 à x3)", "incendiaire (x1 à x3)", "électrique (x1 à x3)", "explosif (x1 à x3", "aucun"]
+    },
+    {
+        "nom":"Madjack",
+        "type":"Revolver",
+        "effect":"Crétins ! Attends que je les éborgne ! (Toujours explosif. Trajectoire en zigzag, cadence de tir accrue)",
+        "damages":"de 84 à 568",
+        "precision":"94,8",
+        "fire_rate":"de 2,9 à 4,4",
+        "magazine":"6",
+        "zoom":"x1,6",
+        "elementary_bonuses":"explosif (x2 à x3)"
+    },
+    {
+        "nom":"Unforgiven",
+        "type":"Revolver",
+        "effect":"Ca pardonne pas ! (+200% de dégâts critiques)",
+        "damages":"de 269 à 1664",
+        "precision":"de 87 à 97",
+        "fire_rate":"de 0,6 à 1,2",
+        "magazine":"2, 3 ou 6",
+        "elementary_bonuses":"aucun"
+    }
+]

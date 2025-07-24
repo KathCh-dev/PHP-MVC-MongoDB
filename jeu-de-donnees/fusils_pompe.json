@@ -1,0 +1,42 @@
+[
+    {
+        "nom":"Defender",
+        "type":"Fusil à pompe de combat",
+        "effect":"Je peux faire ça les yeux fermés... (Régénère les munitions)",
+        "damages":"de 45 à 1024",
+        "precision":"de 11,7 à 72,9",
+        "fire_rate":"de 1 à 1,3",
+        "magazine":"de 2 à 12",
+        "elementary_bonuses":["corrosif (x1 à x2)", "incendiaire (x1 à x2)", "électrique (x1 à x2)", "explosif (x1 à x2)", "aucun"]
+    },
+    {
+        "nom":"Stricker",
+        "type":"Fusil à pompe de combat",
+        "effect":"Les Sniper Rifles, c'est pour les gonzesses ! (+30% de bonus de dégâts critiques, précision et dégâts accrus)",
+        "damages":"de 124 à 444",
+        "precision":"de 56,7 à 78,3",
+        "fire_rate":"de 0,4 à 0,9",
+        "magazine":"de 2 à 12",
+        "elementary_bonuses":"aucun"
+    },
+    {
+        "nom":"Friendly Fire",
+        "type":"Fusil à pompe de combat",
+        "effect":"Bonjour chez vous ! (Toujours incendiaire, tire 9 munitions dans un motif fixe en forme de smiley)",
+        "damages":"de 43 à 444",
+        "precision":"de 11,7 à 68,2",
+        "fire_rate":"de 2 à 12",
+        "magazine":"de 2 à 12",
+        "elementary_bonuses":"incendiaire (x1 à x2)"
+    },
+    {
+        "nom":"Hydra",
+        "type":"Fusil à pompe de combat",
+        "effect":"Cinq têtes de l'hydre qui crachent la mort ! (Dégâts accrus, tire 5 groupes de munitions sur un plan horizontal)",
+        "damages":"de 124 à 468",
+        "precision":"de 65,3 à 83,6",
+        "fire_rate":"de 0,6 à 1,2",
+        "magazine":"de 2 à 13",
+        "elementary_bonuses":"aucun"
+    }
+]
