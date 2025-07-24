@@ -1,0 +1,225 @@
+[
+    {
+        "nom":"Raven",
+        "type":"Fusil d'assaut en rafale",
+        "effect":"Deux alles de plus, ça fait toute la différence (Tire une rafale de 5 cartouches avec une stabilité accrue)",
+        "damages":"de 33 à 469",
+        "precision":"de 87 à 94,9",
+        "fire_rate":"de 7,7 à 15",
+        "magazine":"21",
+        "elementary_bonuses":["corrosif (x2 à x3)", "incendiaire (x2 à x3)", "électrique (x2 à x3)", "explosif (x2 à x3)", "aucun"]
+    },
+    {
+        "nom":"Ogre",
+        "type":"Fusil mitrailleur",
+        "effect":"Un appétit d'ogre pour la chair fraîche ! (Toujours explosif, dégâts élémentaux accrus)",
+        "damages":"de 42 à 429",
+        "precision":"de 72,4 à 91,3",
+        "fire_rate":"de 5,4 à 12,5",
+        "magazine":"de 27 à 69",
+        "elementary_bonuses":"explosif (x2 à x4)"
+    },
+    {
+        "nom":"Revolution",
+        "type":"Fusil mitrailleur",
+        "effect":"Les armes de la Révolution ne seront jamais réduites au silence ! (Chargeur augmenté, cadence de tire réduite)",
+        "damages":"de 43 à 401",
+        "precision":"de 66 à 88,5",
+        "fire_rate":"de 4,7 à 9,3",
+        "magazine":"104",
+        "elementary_bonuses":["corrosif (x1 à x2)", "électrique (x1 à x2)", "explosif (x1 à x2)", "incendiaire (x1 à x2)", "aucun"]
+    },
+     {
+        "nom":"Defender",
+        "type":"Fusil à pompe de combat",
+        "effect":"Je peux faire ça les yeux fermés... (Régénère les munitions)",
+        "damages":"de 45 à 1024",
+        "precision":"de 11,7 à 72,9",
+        "fire_rate":"de 1 à 1,3",
+        "magazine":"de 2 à 12",
+        "elementary_bonuses":["corrosif (x1 à x2)", "incendiaire (x1 à x2)", "électrique (x1 à x2)", "explosif (x1 à x2)", "aucun"]
+    },
+    {
+        "nom":"Stricker",
+        "type":"Fusil à pompe de combat",
+        "effect":"Les Sniper Rifles, c'est pour les gonzesses ! (+30% de bonus de dégâts critiques, précision et dégâts accrus)",
+        "damages":"de 124 à 444",
+        "precision":"de 56,7 à 78,3",
+        "fire_rate":"de 0,4 à 0,9",
+        "magazine":"de 2 à 12",
+        "elementary_bonuses":"aucun"
+    },
+    {
+        "nom":"Friendly Fire",
+        "type":"Fusil à pompe de combat",
+        "effect":"Bonjour chez vous ! (Toujours incendiaire, tire 9 munitions dans un motif fixe en forme de smiley)",
+        "damages":"de 43 à 444",
+        "precision":"de 11,7 à 68,2",
+        "fire_rate":"de 2 à 12",
+        "magazine":"de 2 à 12",
+        "elementary_bonuses":"incendiaire (x1 à x2)"
+    },
+    {
+        "nom":"Hydra",
+        "type":"Fusil à pompe de combat",
+        "effect":"Cinq têtes de l'hydre qui crachent la mort ! (Dégâts accrus, tire 5 groupes de munitions sur un plan horizontal)",
+        "damages":"de 124 à 468",
+        "precision":"de 65,3 à 83,6",
+        "fire_rate":"de 0,6 à 1,2",
+        "magazine":"de 2 à 13",
+        "elementary_bonuses":"aucun"
+    },
+        {
+        "nom":"Whitting's Elephant Gun",
+        "type":"Fusil de précision à levier",
+        "effect":"C'est que pour tuer les éléphants ou ça tue autre chose aussi ? (Précision et dégâts très élevés)",
+        "damages":"de 247 à 1801",
+        "precision":"de 98 à 98,5",
+        "fire_rate":"de 0,5 à 0,8",
+        "magazine":"6",
+        "elementary_bonuses":"aucun"
+    },
+    {
+        "nom":"Cyclops",
+        "type":"Fusil de précision à levier",
+        "effect":"Je n'ouvre qu'un oeil, mais c'est le bon ! (Zoom x3,2, vitesse des projectiles doublée, bonus de dégâts critiques lors du zoom)",
+        "damages":"de 75 à 1424",
+        "precision":"de 95,7 à 98,7",
+        "fire_rate":"de 0,5 à 0,9",
+        "magazine":"de 3 à 6",
+        "elementary_bonuses":["corrosif (x1 à x4)", "incendiaire (x1 à x4)", "électrique (x1 à x4)", "explosif (x1 à x4)", "aucun"]
+    },
+    {
+        "nom":"Invader",
+        "type":"Fusil de précision semi-automatique",
+        "effect":"BAM BAM BAM BAM BAM ! (Tire une rafale de 5 cartouches lors du zoom)",
+        "damages":"de 160 à 582",
+        "precision":"de 96,2 à 98,5",
+        "fire_rate":"de 1,2 à 2,9",
+        "magazine":"15",
+        "elementary_bonuses":["corrosif (x1 à x3)", "incendiaire (x1 à x3)", "électrique (x1 à x3)", "explosif (x1 à x3)", "aucun"]
+    },
+        {
+        "nom":"Leviathan",
+        "type":"Lance-roquette",
+        "effect":"C'est géant ! (Les roquettes sont soumises à la gravitation et suivent une trajectoire elliptique",
+        "damages":"de 404 à 1533",
+        "precision":"de 91,7 à 97,9",
+        "fire_rate":"1,2",
+        "magazine":"de 6 à 7",
+        "zoom":"x2,7",
+        "elementary_bonuses":["corrosif (x4)", "incendiaire (x4)", "électrique (x4)", "explosif (x4)"]
+    },
+    {
+        "nom":"The Roaster",
+        "type":"Lance-roquette",
+        "effect":"Je vais passer quelqu'un sur le grill aujourd'hui ! (Toujours incendiaire)",
+        "damages":"de 357 à 1453",
+        "precision":"de 79,7 à 93,2",
+        "fire_rate":"de 0,7 à 5",
+        "magazine":"de 1 à 6",
+        "elementary_bonuses":"incendiaire (x4)"
+    },
+    {
+        "nom":"Idhogg",
+        "type":"Lance-roquette",
+        "effect":"La mort vient d'en haut ! (Tire une roquette par coup; dégâts accrus; la roquette explose en vol en libérant perpendiculairement six petits roquettes qui font les mêmes dégâts que la roquette originelle",
+        "damages":"de 963 à 3559",
+        "precision":"de 95,1 à 95,8",
+        "fire_rate":"de 0,7 à 1",
+        "magazine":"2",
+        "elementary_bonuses":["corrosif (x4)", "incendiaire (x4)", "électrique (x4)", "explosif (x4)"]
+    },
+    {
+        "nom":"Redemption",
+        "type":"Lance-roquette",
+        "effect":"Tueur de monstre ! (Enorme dégâts et zone d'effet, faible vélocité des projectiles, consomme 4 roquettes par tir)",
+        "damages":"de 758 à 4431",
+        "precision":"de 88,8 à 97,2",
+        "fire_rate":"de 0,8 à 1,1",
+        "magazine":"de 4 à 5",
+        "elementary_bonuses":["corrosif (x4)", "incendiaire (x4)", "électrique (x4)", "explosif (x4)"]
+    },
+        {
+        "nom":"Lady Finger",
+        "type":"Repeater",
+        "effect":"Omnia Vincit amor (+100% de dégâts critiques)",
+        "damages":"de 13 à 212",
+        "precision":"de 84,6 à 91,2",
+        "fire_rate":"4,6",
+        "magazine":"de 12 à 19",
+        "elementary_bonuses":["corrosif (x1 à x2)", "incendidiaire (x1 à x2)", "électrique (x1 à x2)", "explosif (x1 à x2)", "aucun"]
+    },
+    {
+        "nom":"Athena's Wisdom",
+        "type":"Repeater",
+        "effect":"La guerre, en dernière option (Précision accrue et bonus de dégâts critiques de 120%)",
+        "damages":"de 75 à 303",
+        "precision":"de 92,1 à 95,5",
+        "fire_rate":"de 2,6 à 5,5",
+        "magazine":"de 12 à 21",
+        "elementary_bonuses":["corrosif (x1 à x3)", "incendidiaire (x1 à x3)", "électrique (x1 à x3)", "explosif (x1 à x3)", "aucun"]
+    },
+    {
+        "nom":"The Clipper",
+        "type":"Pistolet mitrailleur",
+        "effect":"Ne lâche pas ça... Ca pourrait tomber sur un orteil ! (Toujours incendiaire, +100% de dégâts au corps à corps)",
+        "damages":"de 8 à 120",
+        "precision":"71,7",
+        "fire_rate":"9",
+        "magazine":"20",
+        "elementary_bonuses":"incendiaire (x1)"
+    },
+    {
+        "nom":"Vengeance",
+        "type":"Pistolet mitrailleur",
+        "effect":"L'heure de la vengeance a sonné ! (Chance de traverser les boucliers)",
+        "damages":"de 26 à 338",
+        "precision":"de 85 à 90,4",
+        "fire_rate":"de 11 à 16",
+        "magazine":"de 17 à 32",
+        "elementary_bonuses":["corrosif (x1 à x2)", "incendidiaire (x1 à x2)", "électrique (x1 à x2)", "explosif (x1 à x2)", "aucun"]
+
+    },
+       {
+        "nom":"Chimera",
+        "type":"Revolver",
+        "effect":"Un monstre plein de surprises: feu, foudre et poison ! (Toujours explosif, mais ses munistions ont une chance d'être incendiaires, électriques ou corrosives.)",
+        "damages":"de 222 à 1440",
+        "precision":"de 89,3 à 96,4",
+        "fire_rate":"de 1 à 2,3",
+        "magazine":"2, 3 ou 6",
+        "elementary_bonuses":"explosif (x2 à x4)"
+    },
+    {
+        "nom":"Equalizer",
+        "type":"Revolver",
+        "effect":"Puissance de feu infinie ! (Régénération de munitions)",
+        "damages":"de 151 à 1377",
+        "precision":"de 69,8 à 95,8",
+        "fire_rate":"de 1,6 à 1,9",
+        "magazine":"2, 3 ou 6",
+        "elementary_bonuses":["corrosif (x1 à x3)", "incendiaire (x1 à x3)", "électrique (x1 à x3)", "explosif (x1 à x3", "aucun"]
+    },
+    {
+        "nom":"Madjack",
+        "type":"Revolver",
+        "effect":"Crétins ! Attends que je les éborgne ! (Toujours explosif. Trajectoire en zigzag, cadence de tir accrue)",
+        "damages":"de 84 à 568",
+        "precision":"94,8",
+        "fire_rate":"de 2,9 à 4,4",
+        "magazine":"6",
+        "zoom":"x1,6",
+        "elementary_bonuses":"explosif (x2 à x3)"
+    },
+    {
+        "nom":"Unforgiven",
+        "type":"Revolver",
+        "effect":"Ca pardonne pas ! (+200% de dégâts critiques)",
+        "damages":"de 269 à 1664",
+        "precision":"de 87 à 97",
+        "fire_rate":"de 0,6 à 1,2",
+        "magazine":"2, 3 ou 6",
+        "elementary_bonuses":"aucun"
+    }
+]
