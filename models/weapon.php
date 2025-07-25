@@ -1,7 +1,7 @@
 <?php
 
 class Weapon{
-    private ?string $_id = null; //ObjectId est considéré comme une string
+    private string $_id; //ObjectId est considéré comme une string
     private string $name;
     private string $type;
     private string $effect;

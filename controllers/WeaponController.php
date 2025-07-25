@@ -13,17 +13,17 @@ class WeaponController{
     public function home(){
         $weapons = $this->weaponRepository->getWeapons();
 
-        require_once __DIR__ . '../views/home.php';
+        require_once __DIR__ . '/../views/home.php';
     }
 
     public function showWeapon(string $_id){
         $weapon = $this->weaponRepository->getWeapon($_id);
 
-        require_once __DIR__ . '../views/showWeapon.php';
+        require_once __DIR__ . '/../views/showWeapon.php';
     }
 
     public function createWeapon(){
-        require_once __DIR__ . '../views/createWeapon.php';
+        require_once __DIR__ . '/../views/createWeapon.php';
     }
 
     public function storeWeapon(){
@@ -46,7 +46,7 @@ class WeaponController{
     public function editWeapon(string $_id){
         $weapon = $this->weaponRepository->getWeapon($_id);
 
-        require_once __DIR__ . '../views/editWeapon.php';
+        require_once __DIR__ . '/../views/editWeapon.php';
     }
 
     public function updateWeapon(){

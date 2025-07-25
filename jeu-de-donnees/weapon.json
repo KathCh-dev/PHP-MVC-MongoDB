@@ -7,7 +7,7 @@
         "precision":"de 87 à 94,9",
         "fire_rate":"de 7,7 à 15",
         "magazine":"21",
-        "elementary_bonuses":["corrosif (x2 à x3)", "incendiaire (x2 à x3)", "électrique (x2 à x3)", "explosif (x2 à x3)", "aucun"],
+        "elementary_bonuses":"corrosif (x2 à x3), incendiaire (x2 à x3), électrique (x2 à x3), explosif (x2 à x3) ou aucun",
         "price":200,
         "quantity":3
     },
@@ -31,7 +31,7 @@
         "precision":"de 66 à 88,5",
         "fire_rate":"de 4,7 à 9,3",
         "magazine":"104",
-        "elementary_bonuses":["corrosif (x1 à x2)", "électrique (x1 à x2)", "explosif (x1 à x2)", "incendiaire (x1 à x2)", "aucun"],
+        "elementary_bonuses":"corrosif (x1 à x2), électrique (x1 à x2), explosif (x1 à x2), incendiaire (x1 à x2), aucun",
         "price":298,
         "quantity":5
     },
@@ -43,7 +43,7 @@
         "precision":"de 11,7 à 72,9",
         "fire_rate":"de 1 à 1,3",
         "magazine":"de 2 à 12",
-        "elementary_bonuses":["corrosif (x1 à x2)", "incendiaire (x1 à x2)", "électrique (x1 à x2)", "explosif (x1 à x2)", "aucun"],
+        "elementary_bonuses":"corrosif (x1 à x2), incendiaire (x1 à x2), électrique (x1 à x2), explosif (x1 à x2), aucun",
         "price":298,
         "quantity":8        
     },
@@ -103,7 +103,7 @@
         "precision":"de 95,7 à 98,7",
         "fire_rate":"de 0,5 à 0,9",
         "magazine":"de 3 à 6",
-        "elementary_bonuses":["corrosif (x1 à x4)", "incendiaire (x1 à x4)", "électrique (x1 à x4)", "explosif (x1 à x4)", "aucun"],
+        "elementary_bonuses":"corrosif (x1 à x4), incendiaire (x1 à x4), électrique (x1 à x4), explosif (x1 à x4), aucun",
         "price":428,
         "quantity":0
     },
@@ -115,7 +115,7 @@
         "precision":"de 96,2 à 98,5",
         "fire_rate":"de 1,2 à 2,9",
         "magazine":"15",
-        "elementary_bonuses":["corrosif (x1 à x3)", "incendiaire (x1 à x3)", "électrique (x1 à x3)", "explosif (x1 à x3)", "aucun"],
+        "elementary_bonuses":"corrosif (x1 à x3), incendiaire (x1 à x3), électrique (x1 à x3), explosif (x1 à x3), aucun",
         "price":427,
         "quantity":0
     },
@@ -128,7 +128,7 @@
         "fire_rate":"1,2",
         "magazine":"de 6 à 7",
         "zoom":"x2,7",
-        "elementary_bonuses":["corrosif (x4)", "incendiaire (x4)", "électrique (x4)", "explosif (x4)"],
+        "elementary_bonuses":"corrosif (x4), incendiaire (x4), électrique (x4), explosif (x4)",
         "price":743,
         "quantity":4
     },
@@ -152,7 +152,7 @@
         "precision":"de 95,1 à 95,8",
         "fire_rate":"de 0,7 à 1",
         "magazine":"2",
-        "elementary_bonuses":["corrosif (x4)", "incendiaire (x4)", "électrique (x4)", "explosif (x4)"],
+        "elementary_bonuses":"corrosif (x4), incendiaire (x4), électrique (x4), explosif (x4)",
         "price":643,
         "quantity":3
     },
@@ -164,7 +164,7 @@
         "precision":"de 88,8 à 97,2",
         "fire_rate":"de 0,8 à 1,1",
         "magazine":"de 4 à 5",
-        "elementary_bonuses":["corrosif (x4)", "incendiaire (x4)", "électrique (x4)", "explosif (x4)"],
+        "elementary_bonuses":"corrosif (x4), incendiaire (x4), électrique (x4), explosif (x4)",
         "price":765.99,
         "quantity":8
     },
@@ -176,7 +176,7 @@
         "precision":"de 84,6 à 91,2",
         "fire_rate":"4,6",
         "magazine":"de 12 à 19",
-        "elementary_bonuses":["corrosif (x1 à x2)", "incendidiaire (x1 à x2)", "électrique (x1 à x2)", "explosif (x1 à x2)", "aucun"],
+        "elementary_bonuses":"corrosif (x1 à x2), incendidiaire (x1 à x2), électrique (x1 à x2), explosif (x1 à x2), aucun",
         "price":675.57,
         "quantity":3
     },
@@ -188,7 +188,7 @@
         "precision":"de 92,1 à 95,5",
         "fire_rate":"de 2,6 à 5,5",
         "magazine":"de 12 à 21",
-        "elementary_bonuses":["corrosif (x1 à x3)", "incendidiaire (x1 à x3)", "électrique (x1 à x3)", "explosif (x1 à x3)", "aucun"],
+        "elementary_bonuses":"corrosif (x1 à x3), incendidiaire (x1 à x3), électrique (x1 à x3), explosif (x1 à x3), aucun",
         "price":999.99,
         "quantity":2
     },
@@ -212,7 +212,7 @@
         "precision":"de 85 à 90,4",
         "fire_rate":"de 11 à 16",
         "magazine":"de 17 à 32",
-        "elementary_bonuses":["corrosif (x1 à x2)", "incendidiaire (x1 à x2)", "électrique (x1 à x2)", "explosif (x1 à x2)", "aucun"],
+        "elementary_bonuses":"corrosif (x1 à x2), incendidiaire (x1 à x2), électrique (x1 à x2), explosif (x1 à x2), aucun",
         "price":638.50,
         "quantity":6
     },
@@ -236,7 +236,7 @@
         "precision":"de 69,8 à 95,8",
         "fire_rate":"de 1,6 à 1,9",
         "magazine":"2, 3 ou 6",
-        "elementary_bonuses":["corrosif (x1 à x3)", "incendiaire (x1 à x3)", "électrique (x1 à x3)", "explosif (x1 à x3", "aucun"],
+        "elementary_bonuses":"corrosif (x1 à x3), incendiaire (x1 à x3), électrique (x1 à x3), explosif (x1 à x3, aucun",
         "price":764,
         "quantity":2
     },

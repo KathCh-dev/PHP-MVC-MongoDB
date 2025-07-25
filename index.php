@@ -1,6 +1,8 @@
 <?php
 
 require_once __DIR__ . '/controllers/WeaponController.php';
+require_once __DIR__ . '/models/Weapon.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 
 $weaponController = new WeaponController();
