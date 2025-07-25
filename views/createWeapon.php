@@ -1,0 +1,1 @@
+Ceci est le formulaire de création d'une arme.

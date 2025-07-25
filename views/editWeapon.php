@@ -1,0 +1,1 @@
+Ceci est le formulaire de modification d'une arme.

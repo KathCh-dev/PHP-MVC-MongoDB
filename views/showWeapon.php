@@ -1,0 +1,1 @@
+Ceci est le détail d'une arme.
