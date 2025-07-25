@@ -1,7 +1,7 @@
 <?php
 
 class Weapon{
-    private ?string $id = null; //ObjectId est considéré comme une string
+    private ?string $_id = null; //ObjectId est considéré comme une string
     private string $name;
     private string $type;
     private string $effect;
@@ -14,8 +14,8 @@ class Weapon{
     private int $quantity;
     private string $zoom;
 
-    public function __construct($id, $name, $type, $effect, $damages, $precision, $fire_rate, $magazine, $elementary_bonuses, $price, $quantity, $zoom){
-        $this->setId($id);
+    public function __construct($_id, $name, $type, $effect, $damages, $precision, $fire_rate, $magazine, $elementary_bonuses, $price, $quantity, $zoom){
+        $this->setId($_id);
         $this->setName($name);
         $this->setType($type);
         $this->setEffect($effect);
@@ -30,7 +30,7 @@ class Weapon{
     }
 
     public function getId(){
-        return $this->id;
+        return $this->_id;
     }
     public function getName(){
         return $this->name;
@@ -67,8 +67,8 @@ class Weapon{
     }
 
 
-    public function setId(string $id){
-        $this->id = $id;
+    public function setId(string $_id){
+        $this->_id = $_id;
     }
     public function setName(string $name){
         $this->name = $name;
