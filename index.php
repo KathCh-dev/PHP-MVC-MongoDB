@@ -21,7 +21,7 @@ switch($action){
         $weaponController->createWeapon();
         break;
     case 'storeWeapon':
-        $weaponController->createWeapon();
+        $weaponController->storeWeapon();
         break;
     case 'editWeapon':
         $weaponController->editWeapon($_id);

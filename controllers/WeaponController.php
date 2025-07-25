@@ -27,18 +27,20 @@ class WeaponController{
     }
 
     public function storeWeapon(){
-        $weapon = new Weapon();
-        $weapon->setName($_POST['name']);
-        $weapon->setType($_POST['type']);
-        $weapon->setEffect($_POST['effect']);
-        $weapon->setDamages($_POST['damages']);
-        $weapon->setPrecision($_POST['precision']);
-        $weapon->setFireRate($_POST['fire_rate']);
-        $weapon->setMagazine($_POST['magazine']);
-        $weapon->setElementaryBonuses($_POST['elementary_bonuses']);
-        $weapon->setPrice($_POST['price']);
-        $weapon->setQuantity($_POST['quantity']);
-        $weapon->setZoom($_POST['zoom']);
+        $weapon = new Weapon(
+        "",
+        $_POST['name'],
+        $_POST['type'],
+        $_POST['effect'],
+        $_POST['damages'],
+        $_POST['precision'],
+        $_POST['fire_rate'],
+        $_POST['magazine'],
+        $_POST['elementary_bonuses'],
+        $_POST['price'],
+        $_POST['quantity'],
+        $_POST['zoom']);
+        $this->weaponRepository->createWeapon($weapon);
 
         header('Location: ?');
     }
@@ -50,26 +52,26 @@ class WeaponController{
     }
 
     public function updateWeapon(){
-        $weapon = new Weapon();
-        $weapon->setId($_POST['_id']);
-        $weapon->setName($_POST['name']);
-        $weapon->setType($_POST['type']);
-        $weapon->setEffect($_POST['effect']);
-        $weapon->setDamages($_POST['damages']);
-        $weapon->setPrecision($_POST['precision']);
-        $weapon->setFireRate($_POST['fire_rate']);
-        $weapon->setMagazine($_POST['magazine']);
-        $weapon->setElementaryBonuses($_POST['elementary_bonuses']);
-        $weapon->setPrice($_POST['price']);
-        $weapon->setQuantity($_POST['quantity']);
-        $weapon->setZoom($_POST['zoom']);
-        $this->weaponRepository->update($weapon);
+        $weapon = new Weapon(
+        $_POST['_id'],
+        $_POST['name'],
+        $_POST['type'],
+        $_POST['effect'],
+        $_POST['damages'],
+        $_POST['precision'],
+        $_POST['fire_rate'],
+        $_POST['magazine'],
+        $_POST['elementary_bonuses'],
+        $_POST['price'],
+        $_POST['quantity'],
+        $_POST['zoom']);
+        $this->weaponRepository->updateWeapon($weapon);
 
         header('Location: ?');
     }
 
     public function deleteWeapon(string $_id){
-        $this->weaponRepository->delete($_id);
+        $this->weaponRepository->deleteWeapon($_id);
 
         header('Location: ?');
     }
