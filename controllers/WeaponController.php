@@ -73,4 +73,9 @@ class WeaponController{
 
         header('Location: ?');
     }
+
+    public function error(){
+        require_once __DIR__ . '/../views/error.php';
+        http_response_code(404);
+    }
 }
